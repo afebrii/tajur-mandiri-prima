@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tajur Mandiri Prima (TMP) - Corporate Website
 
-## Getting Started
+![Project Status](https://img.shields.io/badge/status-active-success.svg)
+![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css)
 
-First, run the development server:
+Repository resmi untuk website **PT. Tajur Mandiri Prima**, kontraktor spesialis mekanikal dan elektrikal industri di Indonesia sejak tahun 2000. Website ini dibangun untuk menampilkan profil perusahaan, layanan unggulan (Panel Maker, Instalasi, Maintenance, Supply), e-katalog produk, dan portofolio proyek.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Website ini merupakan hasil _rebuild_ modern menggunakan **Next.js 15 (App Router)** yang difokuskan pada performa (Core Web Vitals), SEO dinamis tingkat lanjut, serta pelokalan bahasa ganda (Indonesia & English).
+
+## 🚀 Fitur Utama
+
+- **Multi-language (i18n):** Didukung oleh `next-intl` dengan _middleware_ pendeteksi bahasa otomatis (`/id` & `/en`).
+- **Responsive & Modern UI:** Dibangun dengan **Tailwind CSS** dengan panduan warna yang mencerminkan identitas korporat industrial (Navy Blue & Electric Yellow).
+- **Smooth Animations:** Efek interaktif dan _Scroll Reveal_ menggunakan **Framer Motion** untuk kesan premium.
+- **Dynamic E-Catalog & Portfolio:** Grid produk dan portofolio yang dapat di-_filter_ berdasarkan kategori (mengandalkan struktur JSON).
+- **Advanced SEO & Performance:** 
+  - Metadata dinamis per bahasa (Title, Description, OpenGraph).
+  - Schema Markup JSON-LD (LocalBusiness).
+  - Optimasi aset gambar format otomatis (`WebP`/`AVIF`) menggunakan komponen `next/image`.
+  - Peta situs (`sitemap.xml`) dan `robots.txt` yang ter- _generate_ secara otomatis.
+
+## 🛠️ Tech Stack Dasar
+
+- **Framework:** Next.js 15 (App Router)
+- **Bahasa Pemrograman:** TypeScript
+- **Styling:** Tailwind CSS + Shadcn UI (konvensi desain)
+- **Animasi:** Framer Motion
+- **I18n / Terjemahan:** `next-intl`
+
+## 📂 Struktur Direktori Utama
+
+Pemisahan logika komponen dan terjemahan *(Content separation)*:
+
+```text
+src/
+├── app/
+│   ├── [locale]/           # Routing berdasarkan bahasa (id/en)
+│   ├── robots.ts           # Konfigurasi SEO robot crawler
+│   └── sitemap.ts          # Sitemap generator
+├── components/
+│   ├── common/             # Navbar, Footer, LangSwitcher, JsonLd
+│   └── sections/           # Highlight Portofolio, Grid Produk, dll
+├── data/                   # Data master berformat JSON
+│   ├── portfolio.json      # Daftar Proyek
+│   └── products.json       # Katalog Produk
+├── i18n/                   # Next-Intl Setup & Routing list
+├── messages/               # Kamus translasi antarmuka
+│   ├── en.json             # Bahasa Inggris
+│   └── id.json             # Bahasa Indonesia
+└── middleware.ts           # Pendeteksi dan pengarah (/id atau /en)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💻 Panduan Menjalankan di Lokal (Development)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Pastikan Node.js (direkomendasikan versi 18.x ++ atau terbaru) sudah terpasang.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone repositori ini:**
+   ```bash
+   git clone https://github.com/afebrii/tajur-mandiri-prima.git
+   cd tajur-mandiri-prima
+   ```
 
-## Learn More
+2. **Instal dependensi:**
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Jalankan server *development*:**
+   ```bash
+   npm run dev
+   ```
+   > Buka `http://localhost:3000` di *web browser* Anda untuk melihat hasilnya.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Kompilasi ke versi produksi (Build):**
+   ```bash
+   npm run build
+   npm start
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 Catatan Translasional (i18n)
 
-## Deploy on Vercel
+Setiap penambahan teks *hardcoded* pada UI (contoh: teks pada tombol, judul seksi, deskripsi statis) harus ditambahkan terlebih dahulu *key*-nya pada file `/src/messages/id.json` dan `/src/messages/en.json` agar fitur pergantian bahasa dapat bekerja normal.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+💼 _Dikembangkan oleh [Selasar Digital](https://github.com/andikafebrians) - 2026_

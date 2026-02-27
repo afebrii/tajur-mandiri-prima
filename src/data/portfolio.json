@@ -1,0 +1,100 @@
+[
+    {
+        "id": "port1",
+        "title_id": "Instalasi Panel LVMDP 3000A",
+        "title_en": "3000A LVMDP Panel Installation",
+        "client": "PT. XYZ Manufacturing",
+        "location": "Kawasan Industri Cikarang",
+        "year": 2025,
+        "category": "Panel Maker",
+        "description_id": "Perakitan dan instalasi panel Low Voltage Main Distribution Panel (LVMDP) kapasitas 3000A lengkap dengan sistem sinkronisasi interlock Genset-PLN.",
+        "description_en": "Assembly and installation of 3000A capacity Low Voltage Main Distribution Panel (LVMDP) complete with Genset-PLN interlock synchronization system.",
+        "images": [
+            "/images/portfolio/project1.avif"
+        ]
+    },
+    {
+        "id": "port2",
+        "title_id": "Pemasangan Kapasitor Bank 1200 kVAR",
+        "title_en": "1200 kVAR Capacitor Bank Installation",
+        "client": "Pabrik Tekstil ABC",
+        "location": "Bandung Selatan",
+        "year": 2024,
+        "category": "Efficiency",
+        "description_id": "Pemasangan unit panel Kapasitor Bank step otomatis untuk memperbaiki Power Factor (cos phi) pabrik guna menghindari denda kVARh PLN.",
+        "description_en": "Installation of an automatic step Capacitor Bank panel unit to improve factory Power Factor (cos phi) to avoid PLN kVARh penalties.",
+        "images": [
+            "/images/portfolio/project2.avif"
+        ]
+    },
+    {
+        "id": "port3",
+        "title_id": "Perawatan Trafo & Gardu Induk 20kV",
+        "title_en": "20kV Substation & Transformer Maintenance",
+        "client": "Kawasan MM2100",
+        "location": "Bekasi",
+        "year": 2025,
+        "category": "Maintenance",
+        "description_id": "Purifikasi oli trafo, pengetesan tahanan isolasi, dan pemeliharaan kubikel 20kV secara komprehensif tanpa downtime sistem yang berkepanjangan.",
+        "description_en": "Transformer oil purification, insulation resistance testing, and comprehensive 20kV cubicle maintenance without prolonged system downtime.",
+        "images": [
+            "/images/portfolio/project3.avif"
+        ]
+    },
+    {
+        "id": "port4",
+        "title_id": "Instalasi Cable Tray & Penarikan Kabel Mv",
+        "title_en": "Cable Tray Installation & MV Cable Pulling",
+        "client": "PT. Bintang Otomotif",
+        "location": "Karawang",
+        "year": 2023,
+        "category": "Installation",
+        "description_id": "Fabrikasi rak kabel tray industri gantung sepanjang 2km beserta penarikan kabel power Medium Voltage NYFGBY 3x150mm².",
+        "description_en": "Fabrication of 2km hanging industrial cable tray racks along with pulling Medium Voltage NYFGBY 3x150mm² power cables.",
+        "images": [
+            "/images/portfolio/project4.avif"
+        ]
+    },
+    {
+        "id": "port5",
+        "title_id": "Upgrade Panel Sinkron Genset",
+        "title_en": "Genset Synchronizing Panel Upgrade",
+        "client": "Rumah Sakit Bunda",
+        "location": "Jakarta",
+        "year": 2024,
+        "category": "Panel Maker",
+        "description_id": "Pembaruan sistem kontrol sinkronisasi otomatis untuk 3 unit genset 1000kVA demi memastikan keandalan pasokan listrik rumah sakit 24/7.",
+        "description_en": "Upgrade of automatic synchronization control system for 3 units of 1000kVA gensets to ensure 24/7 hospital power supply reliability.",
+        "images": [
+            "/images/portfolio/project5.avif"
+        ]
+    },
+    {
+        "id": "port6",
+        "title_id": "Assessment & Audit Energi Kelistrikan",
+        "title_en": "Electrical Energy Assessment & Audit",
+        "client": "PT. Indofood Sukses Makmur",
+        "location": "Bogor",
+        "year": 2023,
+        "category": "Efficiency",
+        "description_id": "Audit profil beban listrik pabrik menyeluruh menggunakan power quality analyzer untuk merekomendasikan langkah efisiensi energi yang terukur.",
+        "description_en": "Comprehensive factory electrical load profile audit using power quality analyzers to recommend measurable energy efficiency steps.",
+        "images": [
+            "/images/portfolio/project6.avif"
+        ]
+    },
+    {
+        "id": "port7",
+        "title_id": "Penggantian Main Breaker ACB 4000A",
+        "title_en": "4000A ACB Main Breaker Replacement",
+        "client": "Kawasan Komersial Sudirman",
+        "location": "Jakarta Pusat",
+        "year": 2025,
+        "category": "Maintenance",
+        "description_id": "Pekerjaan retrofit dan penggantian Air Circuit Breaker (ACB) lama dengan unit baru berkapasitas 4000A tanpa overhaul seluruh panel.",
+        "description_en": "Retrofit and replacement work of old Air Circuit Breaker (ACB) with a new 4000A capacity unit without overhauling the entire panel.",
+        "images": [
+            "/images/portfolio/project7.avif"
+        ]
+    }
+]

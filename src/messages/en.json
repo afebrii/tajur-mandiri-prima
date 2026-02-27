@@ -1,0 +1,184 @@
+{
+    "Global": {
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "services": "Services",
+            "products": "Products",
+            "portfolio": "Portfolio"
+        },
+        "footer": {
+            "desc": "Electrical Expert & Industrial Partner Since 2000.",
+            "quickLinks": "Quick Links",
+            "contact": "Contact",
+            "rights": "All rights reserved.",
+            "created": "Created with ❤️ by Selasar Digital"
+        }
+    },
+    "Index": {
+        "title": "Tajur Mandiri Prima | Industrial Electrical Expert",
+        "Hero": {
+            "slides": [
+                {
+                    "title": "Industrial Electrical Expert Partner",
+                    "subtitle": "Providing the best and reliable electrical solutions since 2000 for your various industrial needs.",
+                    "cta": "Free Consultation"
+                },
+                {
+                    "title": "Professional Panel Installation",
+                    "subtitle": "Specialist in electrical panel assembly and installation with high-level safety standards.",
+                    "cta": "View Our Services"
+                },
+                {
+                    "title": "Quality Spare Parts",
+                    "subtitle": "Providing original and guaranteed electrical components to support your factory operations.",
+                    "cta": "Explore Products"
+                }
+            ]
+        },
+        "Profile": {
+            "title": "About Tajur Mandiri Prima",
+            "description": "With over 20 years of experience, we are committed to being a strategic partner that guarantees the reliability of your facility's electrical systems.",
+            "readMore": "Read More"
+        },
+        "Stats": [
+            {
+                "label": "Years Experience",
+                "value": 20,
+                "suffix": "+"
+            },
+            {
+                "label": "Projects Completed",
+                "value": 1700,
+                "suffix": "+"
+            },
+            {
+                "label": "Industrial Clients",
+                "value": 350,
+                "suffix": "+"
+            },
+            {
+                "label": "Certified Technicians",
+                "value": 50,
+                "suffix": "+"
+            }
+        ],
+        "PortfolioHighlight": {
+            "title": "Recent Projects",
+            "subtitle": "Some industrial-scale electrical installation work that we have successfully completed.",
+            "viewAll": "View All Projects"
+        },
+        "ProductHighlight": {
+            "title": "Best-Selling Products",
+            "subtitle": "The most sought-after components for industrial needs.",
+            "viewAll": "Full E-Catalog"
+        },
+        "ServiceHighlight": {
+            "title": "Integrated Electrical Solutions",
+            "subtitle": "We offer a full spectrum of services from power distribution to factory electrical optimization."
+        }
+    },
+    "About": {
+        "title": "About Us",
+        "subtitle": "Get to know PT. Tajur Mandiri Prima closer",
+        "History": {
+            "title": "Company History",
+            "content": "PT. Tajur Mandiri Prima was founded in 2000 in Bogor, West Java. We started from a small installation workshop that grew into a national scale contractor and supplier of electrical components. Our dedication to quality and occupational safety has led us to be trusted by hundreds of manufacturing companies and government institutions throughout Indonesia."
+        },
+        "VisionMission": {
+            "visionTitle": "Our Vision",
+            "visionContent": "To be the premier partner of choice in Indonesia in providing innovative, reliable, and internationally standardized industrial electrical system solutions.",
+            "missionTitle": "Our Mission",
+            "missionPoints": [
+                "Provide panel assembly and electrical installation services with the highest safety standards.",
+                "Provide a wide range of quality electrical components from global brands.",
+                "Build long-term collaborative relationships with clients through dedicating after-sales service.",
+                "Continue to develop the competency of technical HR to be adaptive to modern electrical technology."
+            ]
+        },
+        "Values": {
+            "title": "Core Values",
+            "items": [
+                {
+                    "name": "Integrity",
+                    "desc": "Honesty and transparency in every project."
+                },
+                {
+                    "name": "Professionalism",
+                    "desc": "Work completed on time according to technical specifications."
+                },
+                {
+                    "name": "Safety",
+                    "desc": "Prioritizing occupational safety (OHS) above everything else."
+                }
+            ]
+        }
+    },
+    "Portfolio": {
+        "title": "Project Portfolio",
+        "subtitle": "A collection of our work in realizing safe and precise industrial electrical installations.",
+        "noProjectsFound": "No projects found for this category yet."
+    },
+    "Products": {
+        "title": "Exclusive E-Catalog Products",
+        "subtitle": "Discover selected original electrical parts and components from leading brands.",
+        "viewDetails": "View Product Details",
+        "noProductsFound": "Products in this category are not yet available.",
+        "contactCta": "Inquire Price"
+    },
+    "Services": {
+        "title": "Integrated Electrical Services",
+        "subtitle": "PT. Tajur Mandiri Prima provides comprehensive electrical solutions specifically designed to meet strict standards in the industrial and manufacturing sectors.",
+        "items": [
+            {
+                "iconId": "panel",
+                "title": "Panel Maker (Panel Assembly)",
+                "description": "We cater to the fabrication and assembly of various types of low to medium voltage electrical panels according to your factory's specifications and operational needs.",
+                "features": [
+                    "Low Voltage Main Distribution Panel (LVMDP)",
+                    "Synchronization Panel (Genset - PLN)",
+                    "Capacitor Bank Panel (Power Factor Correction)",
+                    "Motor Control Center (MCC) Panel"
+                ]
+            },
+            {
+                "iconId": "installation",
+                "title": "Cable Installation and Pulling",
+                "description": "Comprehensive installation services from route determination, cable tray arrangement, to termination of Medium/Low Voltage cables precisely and in accordance with the latest PUIL standards.",
+                "features": [
+                    "Power Cable Pulling (MV/LV)",
+                    "Cable Tray / Ladder Arrangement and Fabrication",
+                    "Industrial Lighting Installation",
+                    "Cable Termination and Splicing"
+                ]
+            },
+            {
+                "iconId": "maintenance",
+                "title": "Maintenance & Troubleshoot",
+                "description": "Prevent breakdowns with routine preventive maintenance programs and fast response (troubleshoot) services to minimize production downtime.",
+                "features": [
+                    "Transformer Oil Purification and Testing",
+                    "Insulation Resistance Checking / Megger Test",
+                    "Thermographic Scan on Electrical Panels",
+                    "Worn Component Replacement (Retrofit)"
+                ]
+            },
+            {
+                "iconId": "supply",
+                "title": "Electrical Material Supplier",
+                "description": "In addition to services, we are also a trusted supply chain for the procurement needs of electrical spare parts from various renowned global brands for the smooth running of your production.",
+                "features": [
+                    "Distrubutor of Schneider, ABB, Chint Components",
+                    "Providing Supreme, Kabelmetal Cables",
+                    "Supply Inverters, PLCs, & Industrial Sensors",
+                    "Procurement of Project Consumable Materials"
+                ]
+            }
+        ],
+        "whatsappCta": "Consult Your Needs"
+    },
+    "Metadata": {
+        "title": "Tajur Mandiri Prima | Electrical & Panel Contractor",
+        "description": "PT. Tajur Mandiri Prima is a trusted mechanical electrical contractor in Indonesia. Serving industrial electrical installations, LVMDP panel fabrication, capacitor bank installations, transformer maintenance, and quality component supply since 2000."
+    }
+}

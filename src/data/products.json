@@ -1,0 +1,87 @@
+[
+    {
+        "id": "p1",
+        "name": "ACB (Air Circuit Breaker) NW 2000A",
+        "brand": "Schneider Electric",
+        "category": "Breaker",
+        "description_id": "Air Circuit Breaker (ACB) Schneider Electric tipe Masterpact NW dengan kapasitas pemutusan tinggi.",
+        "description_en": "Schneider Electric Masterpact NW type Air Circuit Breaker (ACB) with high breaking capacity.",
+        "technical_specs": {
+            "rating": "2000A",
+            "poles": "3P / 4P",
+            "voltage": "690V AC",
+            "breaking_capacity": "100kA"
+        },
+        "image": "/images/produk/produk1.avif"
+    },
+    {
+        "id": "p2",
+        "name": "Inverter FR-A800 3-Phase",
+        "brand": "Mitsubishi Electric",
+        "category": "Drive",
+        "description_id": "Inverter Mitsubishi seri FR-A800 untuk kontrol motor presisi tinggi dan heavy-duty applications.",
+        "description_en": "Mitsubishi FR-A800 series inverter for high-precision motor control and heavy-duty applications.",
+        "technical_specs": {
+            "capacity": "15kW / 22kW",
+            "voltage": "380-480V 3-Phase",
+            "control_method": "V/F, Vector Control"
+        },
+        "image": "/images/produk/produk2.avif"
+    },
+    {
+        "id": "p3",
+        "name": "Kabel NYY 4x95mm²",
+        "brand": "Supreme Cable",
+        "category": "Cable",
+        "description_id": "Kabel tegangan rendah NYY berisolasi PVC untuk instalasi tanam langsung bawah tanah maupun rak kabel.",
+        "description_en": "Low voltage NYY PVC insulated cable for direct burial installations as well as cable racks.",
+        "technical_specs": {
+            "cores": "4",
+            "size": "95mm²",
+            "voltage_rating": "0.6/1kV",
+            "material": "Cu/PVC/PVC"
+        },
+        "image": "/images/produk/produk3.avif"
+    },
+    {
+        "id": "p4",
+        "name": "Magnetic Contactor NXC-100",
+        "brand": "Chint",
+        "category": "Control",
+        "description_id": "Kontaktor magnetik handal untuk penyambungan dan pemutusan beban daya jarak jauh industri.",
+        "description_en": "Reliable magnetic contactor for remote connection and disconnection of industrial power loads.",
+        "technical_specs": {
+            "rating": "100A",
+            "poles": "3P",
+            "coil_voltage": "220V AC"
+        },
+        "image": "/images/produk/produk4.avif"
+    },
+    {
+        "id": "p5",
+        "name": "MCCB Formula A2 250A",
+        "brand": "ABB",
+        "category": "Breaker",
+        "description_id": "Molded Case Circuit Breaker (MCCB) kompak untuk perlindungan instalasi listrik dari arus pendek.",
+        "description_en": "Compact Molded Case Circuit Breaker (MCCB) for electrical installation protection against short circuits.",
+        "technical_specs": {
+            "rating": "250A",
+            "poles": "3P",
+            "breaking_capacity": "36kA"
+        },
+        "image": "/images/produk/produk5.avif"
+    },
+    {
+        "id": "p6",
+        "name": "Timer Relay H3CR-A",
+        "brand": "Omron",
+        "category": "Control",
+        "description_id": "Solid-state timer presisi multi-fungsi untuk otomasi panel kontrol industri.",
+        "description_en": "Multi-functional precision solid-state timer for industrial control panel automation.",
+        "technical_specs": {
+            "time_range": "0.05s to 300h",
+            "voltage": "100-240V AC / 100-125V DC"
+        },
+        "image": "/images/produk/produk6.avif"
+    }
+]

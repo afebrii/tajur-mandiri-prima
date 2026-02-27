@@ -1,0 +1,184 @@
+{
+    "Global": {
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "services": "Services",
+            "products": "Products",
+            "portfolio": "Portfolio"
+        },
+        "footer": {
+            "desc": "Mitra Ahli Elektrikal & Solusi Industri Sejak 2000.",
+            "quickLinks": "Quick Links",
+            "contact": "Contact",
+            "rights": "All rights reserved.",
+            "created": "Created with ❤️ by Selasar Digital"
+        }
+    },
+    "Index": {
+        "title": "Tajur Mandiri Prima | Ahli Elektrikal Industri",
+        "Hero": {
+            "slides": [
+                {
+                    "title": "Mitra Ahli Elektrikal Industri",
+                    "subtitle": "Memberikan solusi kelistrikan terbaik dan terpercaya sejak tahun 2000 untuk berbagai kebutuhan industri Anda.",
+                    "cta": "Konsultasi Gratis"
+                },
+                {
+                    "title": "Instalasi Panel Profesional",
+                    "subtitle": "Spesialis dalam perakitan dan instalasi panel listrik dengan standar keamanan tingkat tinggi.",
+                    "cta": "Lihat Layanan Kami"
+                },
+                {
+                    "title": "Suku Cadang Berkualitas",
+                    "subtitle": "Menyediakan komponen elektrikal original dan bergaransi untuk menunjang operasional pabrik Anda.",
+                    "cta": "Jelajahi Produk"
+                }
+            ]
+        },
+        "Profile": {
+            "title": "Tentang Tajur Mandiri Prima",
+            "description": "Berpengalaman lebih dari 20 tahun, kami berkomitmen menjadi mitra strategis yang menjamin keandalan sistem kelistrikan fasilitas Anda.",
+            "readMore": "Baca Selengkapnya"
+        },
+        "Stats": [
+            {
+                "label": "Tahun Pengalaman",
+                "value": 20,
+                "suffix": "+"
+            },
+            {
+                "label": "Proyek Selesai",
+                "value": 1700,
+                "suffix": "+"
+            },
+            {
+                "label": "Klien Industri",
+                "value": 350,
+                "suffix": "+"
+            },
+            {
+                "label": "Teknisi Tersertifikasi",
+                "value": 50,
+                "suffix": "+"
+            }
+        ],
+        "PortfolioHighlight": {
+            "title": "Proyek Terkini",
+            "subtitle": "Beberapa pekerjaan instalasi elektrikal skala industri yang telah kami selesaikan dengan sukses.",
+            "viewAll": "Lihat Semua Proyek"
+        },
+        "ProductHighlight": {
+            "title": "Produk Terlaris",
+            "subtitle": "Komponen yang paling sering dicari untuk kebutuhan industri.",
+            "viewAll": "E-Katalog Lengkap"
+        },
+        "ServiceHighlight": {
+            "title": "Solusi Elektrikal Terpadu",
+            "subtitle": "Kami menawarkan spektrum layanan penuh dari distribusi daya hingga optimasi kelistrikan pabrik."
+        }
+    },
+    "About": {
+        "title": "Tentang Kami",
+        "subtitle": "Mengenal lebih dekat PT. Tajur Mandiri Prima",
+        "History": {
+            "title": "Sejarah Perusahaan",
+            "content": "PT. Tajur Mandiri Prima didirikan pada tahun 2000 di Bogor, Jawa Barat. Kami bermula dari sebuah bengkel instalasi kecil yang berkembang menjadi kontraktor dan supplier komponen elektrikal skala nasional. Dedikasi kami terhadap kualitas dan keselamatan kerja membawa kami dipercaya ratusan perusahaan manufaktur dan institusi pemerintah di seluruh Indonesia."
+        },
+        "VisionMission": {
+            "visionTitle": "Visi Kami",
+            "visionContent": "Menjadi mitra pilihan utama di Indonesia dalam menyediakan solusi sistem elektrikal industri yang inovatif, handal, dan berstandar internasional.",
+            "missionTitle": "Misi Kami",
+            "missionPoints": [
+                "Memberikan layanan perakitan panel dan instalasi listrik dengan standar keselamatan tertinggi.",
+                "Menyediakan berbagai komponen kelistrikan berkualitas dari merk global.",
+                "Membangun hubungan kolaboratif jangka panjang dengan klien melalui layanan purna jual yang dedikatif.",
+                "Terus mengembangkan kompetensi SDM teknisi agar adaptif terhadap teknologi kelistrikan modern."
+            ]
+        },
+        "Values": {
+            "title": "Nilai Inti (Core Values)",
+            "items": [
+                {
+                    "name": "Integritas",
+                    "desc": "Kejujuran dan transparansi dalam setiap proyek."
+                },
+                {
+                    "name": "Profesionalisme",
+                    "desc": "Pekerjaan tuntas tepat waktu sesuai spesifikasi teknis."
+                },
+                {
+                    "name": "Keamanan (Safety)",
+                    "desc": "Mengutamakan keselamatan kerja (K3) di atas segalanya."
+                }
+            ]
+        }
+    },
+    "Portfolio": {
+        "title": "Portofolio Proyek",
+        "subtitle": "Kumpulan hasil kerja kami dalam mewujudkan instalasi elektrikal industri yang aman dan presisi.",
+        "noProjectsFound": "Belum ada proyek untuk kategori ini."
+    },
+    "Products": {
+        "title": "E-Katalog Produk Eksklusif",
+        "subtitle": "Temukan suku cadang dan komponen elektrikal original pilihan dari brand terkemuka.",
+        "viewDetails": "Lihat Detail Produk",
+        "noProductsFound": "Produk pada kategori ini belum tersedia.",
+        "contactCta": "Tanyakan Harga"
+    },
+    "Services": {
+        "title": "Layanan Elektrikal Terpadu",
+        "subtitle": "PT. Tajur Mandiri Prima menghadirkan solusi kelistrikan menyeluruh yang dirancang khusus untuk memenuhi standar ketat di sektor industri dan manufaktur.",
+        "items": [
+            {
+                "iconId": "panel",
+                "title": "Panel Maker (Perakitan Panel)",
+                "description": "Kami melayani fabrikasi dan perakitan berbagai jenis panel listrik tegangan rendah hingga menengah sesuai spesifikasi dan kebutuhan operasional pabrik Anda.",
+                "features": [
+                    "Low Voltage Main Distribution Panel (LVMDP)",
+                    "Panel Sinkronisasi (Genset - PLN)",
+                    "Panel Capacitor Bank (Perbaikan Faktor Daya)",
+                    "Panel Motor Control Center (MCC)"
+                ]
+            },
+            {
+                "iconId": "installation",
+                "title": "Instalasi dan Penarikan Kabel",
+                "description": "Layanan instalasi menyeluruh dari penentuan jalur, penyusunan cable tray, hingga terminasi kabel Medium/Low Voltage secara presisi dan sesuai standar PUIL terbaru.",
+                "features": [
+                    "Penarikan Kabel Power (MV/LV)",
+                    "Penyusunan dan Fabrikasi Cable Tray / Ladder",
+                    "Instalasi Penerangan Industri",
+                    "Terminasi dan Penyambungan Kabel (Splicing)"
+                ]
+            },
+            {
+                "iconId": "maintenance",
+                "title": "Maintenance & Troubleshoot",
+                "description": "Mencegah breakdown dengan program pemeliharaan preventif rutin dan layanan respon cepat (troubleshoot) untuk meminimalisir waktu henti produksi (downtime).",
+                "features": [
+                    "Purifikasi dan Pengujian Oli Trafo",
+                    "Pengecekan Tahanan Isolasi / Megger Test",
+                    "Thermographic Scan pada Panel Listrik",
+                    "Penggantian Komponen Aus (Retrofit)"
+                ]
+            },
+            {
+                "iconId": "supply",
+                "title": "Suplier Material Elektrikal",
+                "description": "Selain jasa, kami juga menjadi rantai pasok terpercaya untuk kebutuhan pengadaan sparepart elektrikal dari berbagai merk global ternama demi kelancaran produksi Anda.",
+                "features": [
+                    "Distributor Komponen Schneider, ABB, Chint",
+                    "Penyediaan Kabel Supreme, Kabelmetal",
+                    "Supply Inverter, PLC, & Sensor Industri",
+                    "Pengadaan Material Consumable Proyek"
+                ]
+            }
+        ],
+        "whatsappCta": "Konsultasikan Kebutuhan Anda"
+    },
+    "Metadata": {
+        "title": "Tajur Mandiri Prima | Kontraktor Listrik & Panel",
+        "description": "PT. Tajur Mandiri Prima adalah kontraktor mekanikal elektrikal terpercaya di Indonesia. Melayani instalasi listrik industri, fabrikasi panel LVMDP, pemasangan kapasitor bank, perawatan trafo, serta suplai komponen berkualitas sejak tahun 2000."
+    }
+}
