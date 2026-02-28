@@ -4,20 +4,32 @@ import { useRef, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
+import { useLocale } from 'next-intl';
 import ScrollReveal from '@/components/common/ScrollReveal';
+import ProductModal from '@/components/common/ProductModal';
+import productsData from '@/data/products.json';
 
+type Product = {
+    id: string;
+    name: string;
+    brand: string;
+    category: string;
+    description_id: string;
+    description_en: string;
+    technical_specs: Record<string, string | undefined>;
+    image: string;
+};
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default function ProductHighlight({ dict }: { dict: any }) {
-    const products = [
-        { name: "ACB (Air Circuit Breaker)", brand: "Schneider Electric", category: "Breaker", img: "/images/produk/produk1.avif" },
-        { name: "Inverter 3-Phase", brand: "Mitsubishi", category: "Drive", img: "/images/produk/produk2.avif" },
-        { name: "Kabel NYY 4x95mm", brand: "Supreme", category: "Cable", img: "/images/produk/produk3.avif" },
-        { name: "Magnetic Contactor", brand: "Chint", category: "Control", img: "/images/produk/produk4.avif" },
-        { name: "MCCB 3 Pole 250A", brand: "ABB", category: "Breaker", img: "/images/produk/produk5.avif" },
-        { name: "Relay Timer", brand: "Omron", category: "Control", img: "/images/produk/produk6.avif" }
-    ];
-
+    const locale = useLocale();
     const carouselRef = useRef<HTMLDivElement>(null);
     const [width, setWidth] = useState(0);
+    const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+    const [isDragging, setIsDragging] = useState(false);
+
+    // Feature first 6 products
+    const featuredProducts = productsData.slice(0, 6);
 
     const updateWidth = () => {
         if (carouselRef.current) {
@@ -36,12 +48,15 @@ export default function ProductHighlight({ dict }: { dict: any }) {
     }, []);
 
     return (
-        <section className="bg-neutral py-20 border-t border-gray-200 overflow-hidden">
-            <ScrollReveal animation="slideLeft">
+        <section className="relative bg-gray-50  py-24 overflow-hidden transition-colors duration-300">
+            {/* Top wave/divider effect could go here, for now a soft gradient top border */}
+            <div className="absolute top-0 inset-x-0 h-[1px] bg-gradient-to-r from-transparent via-gray-300  to-transparent"></div>
+            <ScrollReveal animation="slideLeft" className="relative z-10">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-12">
-                        <h2 className="text-3xl font-bold text-primary mb-4">{dict.title}</h2>
-                        <p className="text-gray-600 max-w-2xl mx-auto">{dict.subtitle}</p>
+                    <div className="text-center mb-16">
+                        <div className="inline-block px-3 py-1 bg-primary/10  text-primary  font-semibold text-sm rounded-full mb-4">Katalog Unggulan</div>
+                        <h2 className="text-3xl md:text-4xl font-extrabold text-dark  mb-4 tracking-tight">{dict.title}</h2>
+                        <p className="text-gray-600  max-w-2xl mx-auto text-lg">{dict.subtitle}</p>
                     </div>
                 </div>
 
@@ -54,15 +69,15 @@ export default function ProductHighlight({ dict }: { dict: any }) {
                             whileTap={{ cursor: "grabbing" }}
                             className="flex gap-6 w-max"
                         >
-                            {products.map((p, i) => (
+                            {featuredProducts.map((p, i) => (
                                 <motion.div
                                     key={i}
-                                    className="w-[280px] md:w-[320px] bg-white p-6 rounded-lg shadow border border-gray-100 text-center hover:shadow-md transition-shadow flex-shrink-0"
+                                    className="w-[280px] md:w-[320px] bg-white p-6 rounded-lg shadow border border-gray-100 text-center hover:shadow-lg transition-shadow flex-shrink-0 flex flex-col"
                                 >
                                     <div className="w-full h-48 bg-gray-50 flex items-center justify-center rounded mb-4 overflow-hidden relative">
-                                        <Image src={p.img} alt={p.name} fill className="object-cover pointer-events-none" sizes="(max-width: 768px) 100vw, 320px" draggable={false} />
+                                        <Image src={p.image} alt={p.name} fill className="object-contain p-2 pointer-events-none" sizes="(max-width: 768px) 100vw, 320px" draggable={false} />
                                     </div>
-                                    <span className="text-xs font-semibold text-secondary bg-primary px-2 py-1 rounded inline-block mb-2">{p.category}</span>
+                                    <span className="text-xs font-semibold text-secondary bg-primary px-2 py-1 rounded inline-block mb-2 shadow-sm">{p.category}</span>
                                     <h3 className="font-bold text-dark truncate">{p.name}</h3>
                                     <p className="text-sm text-gray-500 mt-1">{p.brand}</p>
                                 </motion.div>

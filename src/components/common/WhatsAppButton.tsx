@@ -1,28 +1,29 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
-import { MessageCircle } from 'lucide-react';
+import { MessageSquare } from 'lucide-react';
 
 export default function WhatsAppButton({
     message = "Halo, saya tertarik dengan layanan/produk dari PT. Tajur Mandiri Prima.",
-    className = ""
+    className = "",
+    href
 }: {
     message?: string,
-    className?: string
+    className?: string,
+    href?: string
 }) {
-    const phoneNumber = "6281234567890"; // Ganti dengan nomor WhatsApp aktif
+    const phoneNumber = "6285219452921"; // Updated phone number
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+    const whatsappUrl = href || `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 
     return (
         <a
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className={`flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:shadow-xl transition-all ${className}`}
+            className={`flex items-center justify-center gap-3 bg-primary hover:bg-primary/90 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all ${className}`}
         >
-            <MessageCircle size={24} />
-            <span className="hidden sm:inline">WhatsApp</span>
+            <MessageSquare size={20} />
+            <span>Konsultasi Gratis</span>
         </a>
     );
 }

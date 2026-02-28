@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import ScrollReveal from '@/components/common/ScrollReveal';
+import ProjectModal from '@/components/common/ProjectModal';
 
 type Project = {
     id: string;
@@ -18,8 +19,9 @@ type Project = {
     images: string[];
 };
 
-export default function PortfolioGrid({ data, locale, dict }: { data: Project[], locale: string, dict: any }) {
+export default function PortfolioGrid({ data, locale, dict }: { data: Project[], locale: string, dict: Record<string, string> }) {
     const [filter, setFilter] = useState('All');
+    const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
     // Extract unique categories for filter buttons
     const categories = ['All', ...Array.from(new Set(data.map(item => item.category)))];
@@ -61,7 +63,8 @@ export default function PortfolioGrid({ data, locale, dict }: { data: Project[],
                                 animate={{ opacity: 1, scale: 1 }}
                                 exit={{ opacity: 0, scale: 0.9 }}
                                 transition={{ duration: 0.3 }}
-                                className="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden group h-full flex flex-col"
+                                onClick={() => setSelectedProject(project)}
+                                className="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden group h-full flex flex-col cursor-pointer hover:shadow-xl transition-shadow"
                             >
                                 <div className="relative h-64 w-full bg-gray-200 overflow-hidden shrink-0">
                                     {project.images[0] ? (
@@ -74,12 +77,17 @@ export default function PortfolioGrid({ data, locale, dict }: { data: Project[],
                                     ) : (
                                         <div className="w-full h-full flex items-center justify-center text-gray-400">Image Placeholder</div>
                                     )}
-                                    <div className="absolute top-4 right-4 bg-secondary text-primary text-xs font-bold px-3 py-1 rounded-full">
+                                    <div className="absolute top-4 right-4 bg-secondary text-primary text-xs font-bold px-3 py-1 rounded-full shadow-sm">
                                         {project.category}
+                                    </div>
+                                    <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                        <span className="bg-white text-primary font-bold px-4 py-2 rounded-lg shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                                            {locale === 'id' ? 'Lihat Detail' : 'View Detail'}
+                                        </span>
                                     </div>
                                 </div>
                                 <div className="p-6 flex flex-col flex-grow">
-                                    <h3 className="text-xl font-bold text-dark mb-2">
+                                    <h3 className="text-xl font-bold text-dark mb-2 group-hover:text-primary transition-colors">
                                         {locale === 'id' ? project.title_id : project.title_en}
                                     </h3>
                                     <div className="text-sm text-gray-500 mb-4 flex gap-4">
@@ -101,6 +109,13 @@ export default function PortfolioGrid({ data, locale, dict }: { data: Project[],
                     {dict.noProjectsFound || "No projects found for this category."}
                 </div>
             )}
+
+            {/* Project Modal */}
+            <ProjectModal
+                project={selectedProject}
+                locale={locale}
+                onClose={() => setSelectedProject(null)}
+            />
         </div>
     );
 }

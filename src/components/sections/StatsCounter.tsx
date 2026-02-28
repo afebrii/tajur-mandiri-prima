@@ -15,8 +15,11 @@ export default function StatsCounter({ stats }: { stats: Stat[] }) {
     const isInView = useInView(ref, { once: true, margin: "-100px" });
 
     return (
-        <section className="bg-primary text-white py-16">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="relative bg-dark text-white py-20 overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-br from-primary via-dark to-dark opacity-90 z-0"></div>
+            {/* Subtle overlay pattern */}
+            <div className="absolute inset-0 bg-[url('/images/pattern-dots.png')] bg-repeat opacity-10 z-0 mix-blend-overlay"></div>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div ref={ref} className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
                     {stats.map((stat, i) => (
                         <motion.div

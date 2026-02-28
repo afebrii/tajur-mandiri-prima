@@ -5,6 +5,7 @@ import { routing } from '@/i18n/routing';
 import Navbar from '@/components/common/Navbar';
 import Footer from '@/components/common/Footer';
 import JsonLd from '@/components/common/JsonLd';
+
 import { Metadata } from 'next';
 import '../globals.css';
 
@@ -62,7 +63,7 @@ export default async function LocaleLayout({
     const { locale } = await params;
 
     // Validate that the incoming `locale` parameter is valid
-    if (!routing.locales.includes(locale as any)) {
+    if (!routing.locales.includes(locale as typeof routing.locales[number])) {
         notFound();
     }
 
@@ -72,7 +73,7 @@ export default async function LocaleLayout({
 
     return (
         <html lang={locale}>
-            <body className="antialiased font-sans text-dark bg-neutral pt-20">
+            <body className="antialiased font-sans text-dark bg-background  transition-colors duration-300 pt-20">
                 <JsonLd />
                 <NextIntlClientProvider messages={messages}>
                     <Navbar />

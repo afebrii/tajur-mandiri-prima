@@ -1,11 +1,11 @@
 {
     "Global": {
         "nav": {
-            "home": "Home",
-            "about": "About",
-            "services": "Services",
-            "products": "Products",
-            "portfolio": "Portfolio"
+            "home": "Beranda",
+            "about": "Tentang Kami",
+            "services": "Layanan",
+            "products": "Produk",
+            "portfolio": "Portofolio"
         },
         "footer": {
             "desc": "Mitra Ahli Elektrikal & Solusi Industri Sejak 2000.",
@@ -22,17 +22,20 @@
                 {
                     "title": "Mitra Ahli Elektrikal Industri",
                     "subtitle": "Memberikan solusi kelistrikan terbaik dan terpercaya sejak tahun 2000 untuk berbagai kebutuhan industri Anda.",
-                    "cta": "Konsultasi Gratis"
+                    "cta": "Konsultasi Gratis",
+                    "link": "https://wa.me/6285219452921?text=Halo%20Tajur%20Mandiri%20Prima!%20Saya%20ingin%20konsultasi%20terkait%20produk-produk%20elektrikal%2C%20apakah%20bisa%20dibantu%3F"
                 },
                 {
                     "title": "Instalasi Panel Profesional",
                     "subtitle": "Spesialis dalam perakitan dan instalasi panel listrik dengan standar keamanan tingkat tinggi.",
-                    "cta": "Lihat Layanan Kami"
+                    "cta": "Lihat Layanan Kami",
+                    "link": "/services"
                 },
                 {
                     "title": "Suku Cadang Berkualitas",
                     "subtitle": "Menyediakan komponen elektrikal original dan bergaransi untuk menunjang operasional pabrik Anda.",
-                    "cta": "Jelajahi Produk"
+                    "cta": "Jelajahi Produk",
+                    "link": "/products"
                 }
             ]
         },
@@ -49,12 +52,12 @@
             },
             {
                 "label": "Proyek Selesai",
-                "value": 1700,
+                "value": 1709,
                 "suffix": "+"
             },
             {
                 "label": "Klien Industri",
-                "value": 350,
+                "value": 1500,
                 "suffix": "+"
             },
             {
@@ -131,47 +134,62 @@
         "subtitle": "PT. Tajur Mandiri Prima menghadirkan solusi kelistrikan menyeluruh yang dirancang khusus untuk memenuhi standar ketat di sektor industri dan manufaktur.",
         "items": [
             {
-                "iconId": "panel",
-                "title": "Panel Maker (Perakitan Panel)",
-                "description": "Kami melayani fabrikasi dan perakitan berbagai jenis panel listrik tegangan rendah hingga menengah sesuai spesifikasi dan kebutuhan operasional pabrik Anda.",
+                "iconId": "installation",
+                "title": "Mechanical Electrical",
+                "description": "Layanan instalasi ME, sistem proteksi, dan jaringan data profesional dengan standar keamanan industri.",
                 "features": [
-                    "Low Voltage Main Distribution Panel (LVMDP)",
-                    "Panel Sinkronisasi (Genset - PLN)",
-                    "Panel Capacitor Bank (Perbaikan Faktor Daya)",
-                    "Panel Motor Control Center (MCC)"
+                    "Panel Medium Voltage Installation",
+                    "Distribution Panel Installation",
+                    "Control Panel & Remote Installation",
+                    "Lighting Factory & Building Installation",
+                    "Hydrant/Fire Alarm Installation",
+                    "Cabling Data Network Installation"
                 ]
             },
             {
-                "iconId": "installation",
-                "title": "Instalasi dan Penarikan Kabel",
-                "description": "Layanan instalasi menyeluruh dari penentuan jalur, penyusunan cable tray, hingga terminasi kabel Medium/Low Voltage secara presisi dan sesuai standar PUIL terbaru.",
+                "iconId": "panel",
+                "title": "Switch Board Panel",
+                "description": "Perakitan panel distribusi, sistem otomasi PLC, dan optimasi beban listrik untuk performa industri yang stabil dan efisien.",
                 "features": [
-                    "Penarikan Kabel Power (MV/LV)",
-                    "Penyusunan dan Fabrikasi Cable Tray / Ladder",
-                    "Instalasi Penerangan Industri",
-                    "Terminasi dan Penyambungan Kabel (Splicing)"
+                    "MMVDP (Medium Voltage Main Distribution Panel)",
+                    "LVMDP (Low Voltage Main Distribution Panel)",
+                    "SDP (Sub Distribution Panel)",
+                    "ATS (Automatic Transfer Switch)",
+                    "AMF (Automatic Main Fallure)",
+                    "Syncronizing Panel",
+                    "Control Panel",
+                    "Control Panel with PLC",
+                    "Capasitor Bank Panel",
+                    "Inverter / DC Drive Panel",
+                    "Soft Starter Panel",
+                    "Lighting Panel"
                 ]
             },
             {
                 "iconId": "maintenance",
-                "title": "Maintenance & Troubleshoot",
-                "description": "Mencegah breakdown dengan program pemeliharaan preventif rutin dan layanan respon cepat (troubleshoot) untuk meminimalisir waktu henti produksi (downtime).",
+                "title": "Maintenance Service",
+                "description": "Jasa perawatan dan perbaikan sistem elektrikal serta otomasi industri guna memastikan kelangsungan operasional yang aman dan berkelanjutan.",
                 "features": [
-                    "Purifikasi dan Pengujian Oli Trafo",
-                    "Pengecekan Tahanan Isolasi / Megger Test",
-                    "Thermographic Scan pada Panel Listrik",
-                    "Penggantian Komponen Aus (Retrofit)"
+                    "Electrical Power",
+                    "Transformer",
+                    "Inverter",
+                    "Digital Scale",
+                    "UPS Trouble",
+                    "PLC System",
+                    "Breaker"
                 ]
             },
             {
                 "iconId": "supply",
-                "title": "Suplier Material Elektrikal",
-                "description": "Selain jasa, kami juga menjadi rantai pasok terpercaya untuk kebutuhan pengadaan sparepart elektrikal dari berbagai merk global ternama demi kelancaran produksi Anda.",
+                "title": "Industrial & Electrical Supply",
+                "description": "Solusi pengadaan komponen elektrikal, sistem kontrol, dan material infrastruktur industri dengan standar spesifikasi yang tepat.",
                 "features": [
-                    "Distributor Komponen Schneider, ABB, Chint",
-                    "Penyediaan Kabel Supreme, Kabelmetal",
-                    "Supply Inverter, PLC, & Sensor Industri",
-                    "Pengadaan Material Consumable Proyek"
+                    "Pre-purchase home inspections",
+                    "Code compliance assessments",
+                    "Panel and wiring evaluations",
+                    "GFCI and AFCI testing",
+                    "Detailed inspection reports",
+                    "Remediation recommendations"
                 ]
             }
         ],

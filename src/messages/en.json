@@ -22,17 +22,20 @@
                 {
                     "title": "Industrial Electrical Expert Partner",
                     "subtitle": "Providing the best and reliable electrical solutions since 2000 for your various industrial needs.",
-                    "cta": "Free Consultation"
+                    "cta": "Free Consultation",
+                    "link": "https://wa.me/6285219452921?text=Hello%20Tajur%20Mandiri%20Prima!%20I%20would%20like%20to%20consult%20regarding%20electrical%20products%2C%20can%20you%20help%20me%3F"
                 },
                 {
                     "title": "Professional Panel Installation",
                     "subtitle": "Specialist in electrical panel assembly and installation with high-level safety standards.",
-                    "cta": "View Our Services"
+                    "cta": "View Our Services",
+                    "link": "/services"
                 },
                 {
                     "title": "Quality Spare Parts",
                     "subtitle": "Providing original and guaranteed electrical components to support your factory operations.",
-                    "cta": "Explore Products"
+                    "cta": "Explore Products",
+                    "link": "/products"
                 }
             ]
         },
@@ -49,12 +52,12 @@
             },
             {
                 "label": "Projects Completed",
-                "value": 1700,
+                "value": 1709,
                 "suffix": "+"
             },
             {
                 "label": "Industrial Clients",
-                "value": 350,
+                "value": 1500,
                 "suffix": "+"
             },
             {
@@ -131,47 +134,62 @@
         "subtitle": "PT. Tajur Mandiri Prima provides comprehensive electrical solutions specifically designed to meet strict standards in the industrial and manufacturing sectors.",
         "items": [
             {
-                "iconId": "panel",
-                "title": "Panel Maker (Panel Assembly)",
-                "description": "We cater to the fabrication and assembly of various types of low to medium voltage electrical panels according to your factory's specifications and operational needs.",
+                "iconId": "installation",
+                "title": "Mechanical Electrical",
+                "description": "Professional ME installation, protection systems, and data networks with industrial safety standards.",
                 "features": [
-                    "Low Voltage Main Distribution Panel (LVMDP)",
-                    "Synchronization Panel (Genset - PLN)",
-                    "Capacitor Bank Panel (Power Factor Correction)",
-                    "Motor Control Center (MCC) Panel"
+                    "Panel Medium Voltage Installation",
+                    "Distribution Panel Installation",
+                    "Control Panel & Remote Installation",
+                    "Lighting Factory & Building Installation",
+                    "Hydrant/Fire Alarm Installation",
+                    "Cabling Data Network Installation"
                 ]
             },
             {
-                "iconId": "installation",
-                "title": "Cable Installation and Pulling",
-                "description": "Comprehensive installation services from route determination, cable tray arrangement, to termination of Medium/Low Voltage cables precisely and in accordance with the latest PUIL standards.",
+                "iconId": "panel",
+                "title": "Switch Board Panel",
+                "description": "Distribution panel assembly, PLC automation systems, and electrical load optimization for stable and efficient industrial performance.",
                 "features": [
-                    "Power Cable Pulling (MV/LV)",
-                    "Cable Tray / Ladder Arrangement and Fabrication",
-                    "Industrial Lighting Installation",
-                    "Cable Termination and Splicing"
+                    "MMVDP (Medium Voltage Main Distribution Panel)",
+                    "LVMDP (Low Voltage Main Distribution Panel)",
+                    "SDP (Sub Distribution Panel)",
+                    "ATS (Automatic Transfer Switch)",
+                    "AMF (Automatic Main Failure)",
+                    "Synchronizing Panel",
+                    "Control Panel",
+                    "Control Panel with PLC",
+                    "Capacitor Bank Panel",
+                    "Inverter / DC Drive Panel",
+                    "Soft Starter Panel",
+                    "Lighting Panel"
                 ]
             },
             {
                 "iconId": "maintenance",
-                "title": "Maintenance & Troubleshoot",
-                "description": "Prevent breakdowns with routine preventive maintenance programs and fast response (troubleshoot) services to minimize production downtime.",
+                "title": "Maintenance Service",
+                "description": "Maintenance and repair services for electrical systems and industrial automation to ensure safe and sustainable operational continuity.",
                 "features": [
-                    "Transformer Oil Purification and Testing",
-                    "Insulation Resistance Checking / Megger Test",
-                    "Thermographic Scan on Electrical Panels",
-                    "Worn Component Replacement (Retrofit)"
+                    "Electrical Power",
+                    "Transformer",
+                    "Inverter",
+                    "Digital Scale",
+                    "UPS Trouble",
+                    "PLC System",
+                    "Breaker"
                 ]
             },
             {
                 "iconId": "supply",
-                "title": "Electrical Material Supplier",
-                "description": "In addition to services, we are also a trusted supply chain for the procurement needs of electrical spare parts from various renowned global brands for the smooth running of your production.",
+                "title": "Industrial & Electrical Supply",
+                "description": "Procurement solutions for electrical components, control systems, and industrial infrastructure materials with the right specification standards.",
                 "features": [
-                    "Distrubutor of Schneider, ABB, Chint Components",
-                    "Providing Supreme, Kabelmetal Cables",
-                    "Supply Inverters, PLCs, & Industrial Sensors",
-                    "Procurement of Project Consumable Materials"
+                    "Pre-purchase home inspections",
+                    "Code compliance assessments",
+                    "Panel and wiring evaluations",
+                    "GFCI and AFCI testing",
+                    "Detailed inspection reports",
+                    "Remediation recommendations"
                 ]
             }
         ],
